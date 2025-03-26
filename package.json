@@ -1,0 +1,21 @@
+{
+  "name": "@leonardoraele/err",
+  "version": "0.1.0",
+  "description": "A simple error class with support for adding context data",
+  "author": "Leonardo Raele <leonardoraele@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "files": ["dist"],
+  "exports": "./dist/index.js",
+  "scripts": {
+    "test": "node --test",
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  },
+  "keywords": [
+    "error"
+  ]
+}
