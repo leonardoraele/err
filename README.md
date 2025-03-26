@@ -1,5 +1,7 @@
 # Err
 
+![NPM Version](https://img.shields.io/npm/v/@leonardoraele/err)
+
 ## Install
 
 	npm install @leonardoraele/err
