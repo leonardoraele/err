@@ -1,6 +1,6 @@
 {
   "name": "@leonardoraele/err",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple error class with support for adding context data",
   "author": "Leonardo Raele <leonardoraele@gmail.com>",
   "license": "MIT",
