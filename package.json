@@ -12,7 +12,8 @@
   "scripts": {
     "test": "node --test",
     "build": "tsc",
-    "prepublish": "npm run build"
+    "prebuild": "rimraf dist",
+    "prepack": "npm run build"
   },
   "devDependencies": {
     "typescript": "^5.8.2"
