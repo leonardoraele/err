@@ -24,6 +24,10 @@ export class Err extends Error {
 		}
 	}
 
+	static throw(...args: ConstructorParameters<typeof Err>): never {
+		throw new Err(...args);
+	}
+
 	private details: Record<string, unknown>|undefined = undefined;
 
 	with(details: Record<string, unknown>): Err {
